@@ -63,6 +63,8 @@
 #define CHANGE_ID3      270
 #define MIDI_MODE       271
 
+#define KEY_SS          281
+
 #define PLAY_Fl         294
 #define PLAY_Gbl        295
 #define PLAY_Gl         296
@@ -94,3 +96,4 @@
 #define BPM_INC         332
 #define BPM_DEC         333
 #define SEQ_CLEAR       334
+

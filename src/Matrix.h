@@ -31,9 +31,9 @@ int Layout[NumLayers][RowCount][ColCount] =
 {
   //  Layer 0 TEST //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {
-    {'-',              '-',           '-',          '1',        '2',       '3',        '4',       '5',        '6',          '-',            '-',            '-'},
-    {KEY_TAB,          'q',           'w',          'e',        'r',       't',       'y',        'u',       'i',           'o',            'p',            KEY_BACKSPACE},
-    {KEY_CAPS_LOCK,    'a',           's',          'd',        'f',       'g',        'h',       'j',        'k',          'l',            ';',            KEY_RETURN},
+    {'-',              '-',           '-',          KEY_ESC,    KEY_SS,    '3',        '4',       '5',        '6',          '-',            '-',            '-'},
+    {'`',              'q',           'w',          'e',        'r',       't',       'y',        'u',       'i',           'o',            'p',            KEY_BACKSPACE},
+    {KEY_TAB,          'a',           's',          'd',        'f',       'g',        'h',       'j',        'k',          'l',            ';',            KEY_RETURN},
     {KEY_LEFT_SHIFT,   'z',           'x',          'c',        'v',       'b',        'n',       'm',        ',',          '.',            KEY_UP_ARROW,   '/'},
     {KEY_LEFT_CTRL,    KEY_LEFT_ALT,  KEY_LEFT_GUI, '-',        ' ',       '-',        ' ',       '-',        FUNCTION_SW,  KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW}
   },
@@ -42,7 +42,7 @@ int Layout[NumLayers][RowCount][ColCount] =
     {'-',               '-',          '-',          MIDI_MODE,  LED_B1,    CHANGE_ID0,  CHANGE_ID1, CHANGE_ID2, CHANGE_ID3,   '-',            '-',            '-'},
     {'`',               '1',          '2',          '3',        '4',       '5',         '6',        '7',        '8',          '9',            '0',            KEY_BACKSPACE},
     {KEY_CAPS_LOCK,     'a',          's',          '[',        '(',       '{',         '}',        ')',        ']',          '-',            '\'',           KEY_RETURN},
-    {KEY_LEFT_SHIFT,    'z',          'x',          'c',        'v',       'b',         'n',        'm',        '-',          '=',            KEY_UP_ARROW,   '\\'},
+    {KEY_LEFT_SHIFT,    'z',          'x',          'c',        'v',       'b',         'n',        'm',        '-',          '=',            '/',            '\\'},
     {KEY_LEFT_CTRL,     KEY_LEFT_ALT, KEY_LEFT_GUI, '-',        ' ',       '-',         ' ',        '-',        FUNCTION_SW,  KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW}
   }
 };

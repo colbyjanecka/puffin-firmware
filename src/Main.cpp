@@ -211,6 +211,12 @@ void loop() {
           case MIDI_MODE:
             setMidiMode(true);
             break;
+          case KEY_SS:
+            Kbd.press(KEY_LEFT_GUI);
+            Kbd.press(KEY_LEFT_SHIFT);
+            Kbd.press('5');
+            Kbd.releaseAll();
+
           //if spacebar was tapped, reset counter.
           case ' ':
             spaceHit();
