@@ -172,6 +172,11 @@ void loop() {
             Kbd.releaseAll();
             LayerCnt++;
             break;
+          case FUNCTION_SW2:
+            //PressedCheck.fill(OFF);
+            Kbd.releaseAll();
+            LayerCnt++;
+            break;
           case NULL_CON:
             break;
           case NEXT:
@@ -256,6 +261,14 @@ void loop() {
             Kbd.release(KEY_MEDIA_PLAY_PAUSE);            
             Kbd.release(KEY_MEDIA_PREVIOUS_TRACK);
             Kbd.release(KEY_MEDIA_NEXT_TRACK);
+            Kbd.releaseAll();
+            break;
+          case FUNCTION_SW2:
+            PressedCheck[LayerCnt][RowCnt][ColCnt] = OFF;
+            if(LayerCnt > 1)
+            {
+              LayerCnt--;
+            }
             Kbd.releaseAll();
             break;
           case NULL_CON:

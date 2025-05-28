@@ -29,7 +29,7 @@ short Cols[ColCount] = {Col1, Col2, Col3, Col4, Col5, Col6, Col7, Col8, Col9, Co
 
 int Layout[NumLayers][RowCount][ColCount] = 
 {
-  //  Layer 0 TEST //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  //  Layer 0 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {
     {'-',              '-',           '-',          KEY_ESC,    KEY_SS,    '3',        '4',       '5',        '6',          '-',            '-',            '-'},
     {'`',              'q',           'w',          'e',        'r',       't',       'y',        'u',       'i',           'o',            'p',            KEY_BACKSPACE},
@@ -44,6 +44,14 @@ int Layout[NumLayers][RowCount][ColCount] =
     {KEY_CAPS_LOCK,     'a',          's',          '[',        '(',       '{',         '}',        ')',        ']',          '-',            '\'',           KEY_RETURN},
     {KEY_LEFT_SHIFT,    'z',          'x',          'c',        'v',       'b',         'n',        'm',        '-',          '=',            '/',            '\\'},
     {KEY_LEFT_CTRL,     KEY_LEFT_ALT, KEY_LEFT_GUI, '-',        ' ',       '-',         ' ',        '-',        FUNCTION_SW,  KEY_LEFT_ARROW, KEY_DOWN_ARROW, KEY_RIGHT_ARROW}
+  },
+  //  Layer 2 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+    {'-',               '-',          '-',          MIDI_MODE,  LED_B1,    CHANGE_ID0,  CHANGE_ID1, CHANGE_ID2, CHANGE_ID3,   '-',            '-',            '-'},
+    {'`',               '1',          '2',          '3',        '4',       '5',         '6',        '7',        '8',          '7',            '8',            '9'},
+    {KEY_CAPS_LOCK,     'a',          's',          '[',        '(',       '{',         '}',        ')',        ']',          '4',            '5',            '6'},
+    {KEY_LEFT_SHIFT,    'z',          'x',          'c',        'v',       'b',         'n',        'm',        '-',          '1',            '2',            '3'},
+    {KEY_LEFT_CTRL,     KEY_LEFT_ALT, FUNCTION_SW2, '-',        ' ',       '-',         ' ',        '-',        FUNCTION_SW,  '0',            KEY_BACKSPACE,  KEY_RETURN}
   }
 };
 

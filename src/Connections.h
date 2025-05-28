@@ -46,6 +46,7 @@
 #define ColorOrder GRB
 #define NumLeds 51
 
+#define FUNCTION_SW2    275
 #define FUNCTION_SW     256
 #define NULL_CON        257
 #define NEXT            258
